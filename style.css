@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400&display=swap');
+
+input:focus {
+  outline: 1px solid rgb(170, 170, 170);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+}
+
+.input-bar {
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+  display: block;
+  width: 800px;
+  height: 50px;
+  background-color: rgb(40, 40, 40);
+  border: 2px solid rgb(170, 170, 170);
+  border-radius: 10px;
+  text-align: top;
+  color: rgb(230, 230, 230);
+  font-size: 30px;
+  font-family: Helvetica;
+
+}
+
+.go-button {
+  margin: 15px 0px 15px 0px;
+  width: 100px;
+  height: 60px;
+  font-size: 30px;
+  font-family: Helvetica;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 60, 60);
+  cursor: pointer;
+  transition: 0.1s;
+}
+.go-button:hover {
+  border: 1.5px solid white;
+  opacity: 0.9;
+}
+
+.output {
+  padding: 50px 0px 50px 0px;
+  color: rgb(230, 230, 230);
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: 200;
+  line-height: 50px;
+}
